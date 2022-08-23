@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>840</width>
+    <height>585</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>840</width>
+    <height>585</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>제품검색 - AI04B</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>아이콘2.png</normaloff>아이콘2.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{
+	color: rgb(0, 255, 255);
+	background-color:  rgb(0, 135, 255);
+	border: 2px solid rgb(0, 204, 100);
+	border-radius: 5px;
+}
+QPushButton:pressed { background-color:rgb(35, 200, 100) }
+
+
+#Dialog{
+	background:url(&quot;./배경11.png&quot;)
+
+}
+QLabel{
+	color: rgb(30, 90, 255);
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">#Label{
+	color : rgb(255,255,255)
+}</string>
+     </property>
+     <property name="text">
+      <string>상품 이름</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="toolTip">
+      <string>상품이름 입력</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>최저가격대</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QLineEdit" name="lineEdit_2"/>
+   </item>
+   <item row="0" column="4">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>최고가격대</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="5">
+    <widget class="QLineEdit" name="lineEdit_3"/>
+   </item>
+   <item row="0" column="6">
+    <widget class="QPushButton" name="pushButton">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	color: white;
+	background-color:  rgb(0, 50, 255);
+	border: 2px solid rgb(0, 150, 70);
+	border-radius: 5px;
+}</string>
+     </property>
+     <property name="text">
+      <string>검색</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="7">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	color: white;
+	background-color:  rgb(0, 50, 255);
+	border: 2px solid rgb(0, 150, 70);
+	border-radius: 5px;
+}</string>
+     </property>
+     <property name="text">
+      <string>보기</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="8">
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="rowCount">
+      <number>30</number>
+     </property>
+     <property name="columnCount">
+      <number>5</number>
+     </property>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>152</number>
+     </attribute>
+     <attribute name="horizontalHeaderMinimumSectionSize">
+      <number>40</number>
+     </attribute>
+     <attribute name="verticalHeaderDefaultSectionSize">
+      <number>30</number>
+     </attribute>
+     <attribute name="verticalHeaderMinimumSectionSize">
+      <number>16</number>
+     </attribute>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <column>
+      <property name="text">
+       <string>제품명</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>가 격</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>평 점</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>평점 등록수</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>구매링크</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
